@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+    justify-content: space-between;
+    padding: 10px;
+    background: hsl(0, 0%, 41%);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  margin-left: 80px;
+  margin-top: -30px;
+}
+p{
+    font: size 32px;
+    font-family: Epilogue, sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* -webkit-box-orient: vertical; */
+    width: 330px;
+    /* overflow: hidden; */
+    
+}
+.login{
+    cursor: pointer;
+    margin-top: 10px;
+}
+h1{
+    font-size: 3rem;
+    /* font-weight: 700; */
+    width: 310px;
+    font-family: Epilogue, sans-serif;
+    font-weight: 700;
+    /* white-space: 5px; */
+    
+
+}
+h2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Epilogue, sans-serif;
+    font-weight: 800;
+    font-size: 160%;
+}
+button{
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+    cursor: pointer;
+    font: size 16px;
+    font-family: Epilogue, sans-serif;
+    font-weight: 500;
+}
+.learn{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Epilogue, sans-serif;
+    color: hsl(0, 0%, 8%);
+}
+.register{
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    margin-right: 30px;
+    font: size 16px;
+    font-family: Epilogue, sans-serif;
+    font-weight: 500;
+}
+
+li {
+   float: left;
+   margin-top: -10px;
+   margin-left: 30px;
+   font-family: Epilogue, sans-serif;
+   font-size: 15px;
+  
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: size 14px;
+  font-family: Epilogue, sans-serif;
+  font-weight: 500;
+}
+li a, svg{
+    margin-right: 15px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  /* background-color: red; */
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 7px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+.navright{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.top-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero{
+    height: 500px;
+    width: 400px;
+    margin-top: 35px;
+}
+/* .desktop{
+    display: flex;
+    flex-direction: column;
+} */
+.first{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: right; */
+}
+.note{
+    display: grid;
+    height: 450px;
+    width: 650px;
+    /* border: 2px solid red; */
+    margin-top: 120px;
+    justify-content: space-around;
+}
+.client-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
